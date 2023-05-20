@@ -7,7 +7,7 @@ trait PageLoader
     public static function loaderHtml($color = null)
     {
         $html = '
-            <div class="seg-loader" style="position:absolute; top:0px; left:0px; right: 0px; bottom: 0px; width:100%; height:100%; background-color:#fff; z-index:99999;">
+            <div class="seg-loader" style="position:fixed; top:0px; left:0px; right: 0px; bottom: 0px; width:100%; height:100%; background-color:#fff; z-index:99999;">
                 <div class="loader-container" style="margin:140px auto; text-align:center;">' . self::loaders($color) . '</div>
             </div>
             <script>        
